@@ -43,5 +43,5 @@ Used the trained LightGBM model to forecast next week’s sales for all store-fa
 
 Ensured all negative predictions were clipped to 0.
 
-Forecast results saved as CSV (weekly_forecast_YYYY-MM-DD.csv) for submission and further analysis.
+Forecast results saved as CSV (weekly_forecast.csv) for submission and further analysis.
 
