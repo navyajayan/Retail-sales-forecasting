@@ -37,3 +37,11 @@ Historical sales data with columns like `date`, `store_nbr`, `family`, `sales`, 
 - `xgboost_model.pkl`  
 - `lightgbm_model.pkl`
 
+## Forecasting & Result Generation
+
+Used the trained LightGBM model to forecast next week’s sales for all store-family combinations.
+
+Ensured all negative predictions were clipped to 0.
+
+Forecast results saved as CSV (weekly_forecast_YYYY-MM-DD.csv) for submission and further analysis.
+
